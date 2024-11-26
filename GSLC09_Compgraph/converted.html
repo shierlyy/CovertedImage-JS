@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Original and Transformed Image</h1>
+        <br>
+        <div class="converted_container">
+            <div class="left">
+                <h2>Original Image</h2>
+                <canvas id="originalCanvas" width="300" height="300"></canvas>
+            </div>
+            <div class="right">
+                <h2>Transformed Image</h2>
+                <canvas id="editedCanvas" width="300" height="300"></canvas>
+            </div>
+        </div>
+        <br>
+        <button id="back" onclick="location.href='./index.html'">
+            Go Back
+            <!-- <a href="./index.html"></a> -->
+        </button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
